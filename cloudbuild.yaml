@@ -13,7 +13,7 @@ steps:
 # Invoke a command that requires auth, to check that it gets piped through
 # correctly.
 - name: 'gcr.io/$PROJECT_ID/gcloud-plus'
-  args: ['source', 'repos', 'clone', 'default']
+  args: ['source', 'repos', 'clone', 'github_Heilihq_gcloud-plus']
 
 images:
 - 'gcr.io/$PROJECT_ID/gcloud-plus'
