@@ -12,8 +12,8 @@ steps:
 
 # Invoke a command that requires auth, to check that it gets piped through
 # correctly.
-- name: 'gcr.io/$PROJECT_ID/gcloud-plus'
-  args: ['source', 'repos', 'clone', 'default']
+#- name: 'gcr.io/$PROJECT_ID/gcloud-plus'
+#  args: ['source', 'repos', 'clone', 'default']
 
 images:
 - 'gcr.io/$PROJECT_ID/gcloud-plus'
